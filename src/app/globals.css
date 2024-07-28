@@ -30,4 +30,24 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+  .hero-bg
+  {
+ /* Using RGBA for transparency */
+  background:  url(../../public/assets/img/header_img.jpg);
+  background-repeat: repeat-x;
+  background-position: 0 20%, 0 95%, 0 0, 0 100%, 0 0;
+  animation: 90s para infinite linear;
+  
+  }
+
+  @keyframes para {
+    100% {
+      background-position: 
+        -5000px 20%,
+        -800px 95%,
+        500px 0,
+        1000px 100%,
+        400px 0;
+      }
+  }
 }
