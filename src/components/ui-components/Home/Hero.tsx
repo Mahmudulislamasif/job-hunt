@@ -11,20 +11,23 @@ const Hero = () => {
         "
     >
       <div className="container mx-auto">
+        <div className="px-4 md:p-0">
         <h1 className="text-[40px] pt-12 font-medium"><span className="text-secondary">3,000+ </span>Browse Jobs</h1>
         <p className="text-[20px] pt-[10px]">
           Find Jobs, Employment & Career Opportunities
         </p>
+        </div>
+        <div className="px-4 md:p-0">
         <form action="" className="py-10 ">
-          <div className="bg-[#ffffff24] pt-[20px] pl-[20px]">
-            <div className="flex flex-wrap">
-              <div className="w-full lg:w-1/3 md:w-1/3 sm:w-full px-2 mb-4">
+          <div className="bg-[#ffffff24] pt-[20px] pl-[20px] pr-[20px]">
+            <div className="grid grid-cols-12 gap-4 ">
+              <div className="col-span-12 md:col-span-4  mb-4">
                 <input
                   placeholder="Keyword e.g. (Job Title, Description, Tags)"
                   className="w-full p-2 border rounded-lg focus:outline-gray-400"
                 />
               </div>
-              <div className="w-full lg:w-1/4 md:w-1/4 sm:w-full px-2 mb-4">
+              <div className="col-span-12 md:col-span-3  mb-4">
                 <div className="relative">
                   <BiTargetLock className="fa fa-dot-circle-o absolute top-1/2 transform -translate-y-1/2 left-3 text-secondary" />
 
@@ -38,7 +41,7 @@ const Hero = () => {
                   <i className="fa fa-angle-down absolute top-1/2 transform -translate-y-1/2 right-3"></i>
                 </div>
               </div>
-              <div className="w-full lg:w-1/4 md:w-1/4 sm:w-full px-2 mb-4">
+              <div className="col-span-12 md:col-span-3  mb-4">
                 <div className="relative">
                   <i className="fa fa-dot-circle-o absolute top-1/2 transform -translate-y-1/2 left-3"></i>
                   <select className="w-full p-2 pl-10 border rounded-lg text-[#797979]">
@@ -51,11 +54,11 @@ const Hero = () => {
                   <i className="fa fa-angle-down absolute top-1/2 transform -translate-y-1/2 right-3"></i>
                 </div>
               </div>
-              <div className="w-full lg:w-1/6 md:w-1/6 sm:w-full px-2 mb-4">
-                <div className="flex justify-start">
+              <div className="col-span-12 md:col-span-2  mb-4">
+                <div className="mx-auto md:mr-4 w-1/2 md:w-full">
                   <a
                     href="#"
-                    className="flex items-center px-10 py-2 bg-secondary text-white rounded"
+                    className="flex items-center justify-center px-4 py-2 bg-secondary text-white rounded"
                   >
                     <CiSearch className="mr-2" /> Search
                   </a>
@@ -64,7 +67,9 @@ const Hero = () => {
             </div>
           </div>
         </form>
-        <div className="pb-10">
+        </div>
+       <div className="px-4 md:p-0">
+       <div className="pb-10">
           <ul className="flex gap-3 flex-wrap">
             <li className="flex items-center gap-2">
               <BsTagsFill className="text-secondary" /> <span className="font-semibold">Trending Keywords :</span>
@@ -89,6 +94,7 @@ const Hero = () => {
             </li>
           </ul>
         </div>
+       </div>
         {/* Count jobs section */}
       </div>
       <div className="bg-[#ffffff24] mt-16">

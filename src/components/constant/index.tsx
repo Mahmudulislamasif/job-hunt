@@ -4,8 +4,8 @@ import { IoStatsChart } from "react-icons/io5";
 import { FaSuitcaseMedical } from "react-icons/fa6";
 import { BsBank2 } from "react-icons/bs";
 import { GrCube } from "react-icons/gr";
-import { title_img1,title_img2,title_img3 } from "../../../public/assets/logo/page";
-export const navLinks = [
+import { title_img1,title_img2,title_img3,hiring_img1,hiring_img2,hiring_img3,hiring_img4 } from "../../../public/assets/logo/page";
+export const  navLinks = [
     {
       id: "home",
       title: "Home",
@@ -81,3 +81,64 @@ export const trandingJobs=[
       totalJobs:"Webstrot Pvt. Ltd"
     }
   ]
+export const hiringCompanies=[
+  {
+    id: "10",
+    icon: hiring_img1,
+    companyname :"ASHKAY INC",
+    address:"NewYork",
+    count:"4"
+
+  },
+  {
+    id: "11",
+    icon: hiring_img2,
+    companyname :"ASHKAY INC",
+    address:"NewYork",
+    count:"4"
+  },
+  {
+    id: "12",
+    icon:hiring_img3,
+    companyname :"ASHKAY INC",
+    address:"NewYork",
+    count:"4"
+  } ,
+  {
+    id: "13",
+    icon:hiring_img4,
+    companyname :"ASHKAY INC",
+    address:"NewYork",
+    count:"4"
+  } ,
+  {
+    id: "14",
+    icon: hiring_img1,
+    companyname :"ASHKAY INC",
+    address:"NewYork",
+    count:"4"
+
+  },
+  {
+    id: "15",
+    icon: hiring_img2,
+    companyname :"ASHKAY INC",
+    address:"NewYork",
+    count:"4"
+  },
+  {
+    id: "15",
+    icon:hiring_img3,
+    companyname :"ASHKAY INC",
+    address:"NewYork",
+    count:"4"
+  } ,
+  {
+    id: "16",
+    icon:hiring_img4,
+    companyname :"ASHKAY INC",
+    address:"NewYork",
+    count:"4"
+  } 
+   
+]

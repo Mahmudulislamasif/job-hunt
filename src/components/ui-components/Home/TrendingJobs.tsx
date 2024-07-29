@@ -7,7 +7,7 @@ import "swiper/css";
 import Image from "next/image";
 const TrendingJobs = () => {
   return (
-    <div className="bg-[#f9f9f9]">
+    <div>
     <div className="container mx-auto my-9">
       <div className="flex">
         <div className="w-[15%] bg-secondary text-white font-bold text-[16px] text-center py-5 flex flex-col items-center justify-center">
@@ -15,7 +15,7 @@ const TrendingJobs = () => {
           <h4>JOBS</h4>
         </div>
         <div className="w-[100%] bg-white border-t-[1px] border-b-[1px] border-[#e9e9e9]">
-          <Swiper slidesPerView={3}
+          <Swiper slidesPerView={1}
                   breakpoints={{
                     640: {
                       slidesPerView: 1,
