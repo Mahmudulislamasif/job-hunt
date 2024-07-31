@@ -1,5 +1,6 @@
 
 
+import Layout from "@/components/layouts/Layout";
 import Footer from "@/components/ui-components/Footer";
 import Counter from "@/components/ui-components/Home/Counter";
 import Deals from "@/components/ui-components/Home/Deals";
@@ -13,7 +14,7 @@ import TrendingJobs from "@/components/ui-components/Home/TrendingJobs";
 export default function Home() {
   return (
     <main>
-      <Navbar/>
+      <Layout>
       <Hero/>
       <TrendingJobs/>
       <FeatureJobs/>
@@ -23,7 +24,7 @@ export default function Home() {
       <Pricing/>
       <SocialApps/>
       <Newsletter/>
-      <Footer/>
+      </Layout>
     </main>
   );
 }

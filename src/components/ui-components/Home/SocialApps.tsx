@@ -5,17 +5,17 @@ import Link from "next/link";
 import { DiAndroid } from "react-icons/di";
 const SocialApps = () => {
   return (
-    <div className="social-bg">
-      {/* <div className="container mx-auto px-4">
+    <div className="bg-secondary">
+      <div className="container mx-auto px-4">
         <div className="grid grid-cols-12 items-center justify-center gap-4">
           <div className="col-span-12 lg:col-span-6 grid place-items-center">
            <div className="relative w-full h-[587px]">
            <Image
               src={mobile}
-              fill
+              width={400}
               className="object-cover"
+              height={587}
               alt=""
-              sizes="(max-width:900px) 100vh,"
             />
            </div>
             
@@ -44,7 +44,7 @@ const SocialApps = () => {
            </div>
           </div>
         </div>
-      </div>  */}
+      </div>  
     </div>
   );
 };
