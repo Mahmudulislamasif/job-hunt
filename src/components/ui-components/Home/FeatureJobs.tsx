@@ -1122,7 +1122,6 @@ const FeatureJobs = () => {
                   <FaRegArrowAltCircleLeft className="text-white text-xl" />
                 </div>
                 <div className="swiper-pagination"></div>
-
                 <div className="button-next-slide-two mr-2  grid place-items-center text-white rounded-full">
                   <FaRegArrowAltCircleRight className="text-white text-xl" />
                 </div>
@@ -1150,7 +1149,7 @@ const FeatureJobs = () => {
                       src={spotlight_img}
                       width={209}
                       height={130}
-                      alt=""
+                      alt="mx-auto"
                     />
                   </div>
                   <div>
@@ -1241,7 +1240,7 @@ const FeatureJobs = () => {
                 <h4>Job by Category</h4>
               </div>
             </div>
-            <div className="py-10 px-3">
+            <div className="py-5 px-3">
               <div className="flex flex-col gap-4">
                 <div className="flex items-center">
                   <IoMdArrowDropright />
@@ -1329,7 +1328,7 @@ const FeatureJobs = () => {
                 <h4>Career Advice</h4>
               </div>
             </div>
-            <div className="p-10">
+            <div className="p-4">
               <div className="flex flex-col gap-8">
                 <div className="flex items-center gap-4">
                   <Image src={career_img1} width={80} height={80} alt="" />
@@ -1388,7 +1387,7 @@ const FeatureJobs = () => {
                 <h4>Job by Category</h4>
               </div>
             </div>
-            <div className="py-10 px-3">
+            <div className="py-5 px-3">
               <div className="flex flex-col gap-4">
                 <div className="flex items-center">
                   <IoMdArrowDropright />

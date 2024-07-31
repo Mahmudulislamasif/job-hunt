@@ -23,7 +23,7 @@ const Deals = () => {
     <div className="container mx-auto px-4">
       <div className="grid grid-cols-12 gap-4">
         <div className="col-span-12 lg:col-span-9 mt-6">
-          <div className="border-[1px] border-[#e9e9e9] p-5 ">
+          <div className=" p-5 ">
             <div className="flex justify-between">
               <div>
                 <h3 className="text-[20px] font-semibold">
@@ -199,8 +199,8 @@ const Deals = () => {
                 <h4>Career Advice</h4>
               </div>
             </div>
-            <div className="p-10">
-              <div className="flex flex-col gap-8">
+            <div className="p-4">
+              <div className="flex flex-col gap-6">
                 <div className="flex items-center gap-4">
                   <Image src={client_img1} width={80} height={80} alt="" />
                   <div>
