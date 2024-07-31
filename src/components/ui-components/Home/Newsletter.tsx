@@ -7,20 +7,20 @@ const Newsletter = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-12 items-center justify-center gap-4">
           <div className="md:col-span-6 lg:col-span-4 col-span-12">
-            <div className="flex items-center gap-3">
+            <div className="flex items-center gap-3 md:flex-nowrap flex-wrap">
               <MdOutlineNotificationImportant className="text-[40px] text-white" />
               <div>
-                <h3 className="text-[30px] text-white">
+                <h3 className="text-[20px] md:text-[30px] text-white">
                   GET JOB NOTIFICATIONS
                 </h3>
-                <p className="text-[16px] text-white">
+                <p className="text-[14px] md:text-[16px] text-white">
                   Free Subscribe Our Newsletter Now
                 </p>
               </div>
             </div>
           </div>
           <div className="col-span-12 md:col-span-6 lg:col-span-8 grid grid-cols-12 gap-4 items-center justify-center">
-            <div className="relative col-span-9">
+            <div className="relative col-span-12 md:col-span-9">
               <MdOutlineMail className="fa fa-dot-circle-o absolute top-1/2 transform -translate-y-1/2 left-3 text-secondary text-[16px]" />
               <div>
                 <input
