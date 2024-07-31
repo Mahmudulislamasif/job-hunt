@@ -10,7 +10,8 @@ import { FaXTwitter } from "react-icons/fa6";
 import { FaPinterestP, FaLinkedinIn, FaGooglePlusG } from "react-icons/fa";
 const Footer = () => {
   return (
-    <div className="bg-primary">
+  <div className="footer-bg">
+      <div >
       <div className="container mx-auto px-4">
         <div className="border-b-[1px] border-[#ffffff1a] py-10">
           <Image
@@ -221,6 +222,7 @@ const Footer = () => {
         </div>
       </div>
     </div>
+  </div>
   );
 };
 
