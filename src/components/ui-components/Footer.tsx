@@ -21,7 +21,7 @@ const Footer = () => {
             className="mx-auto"
           />
         </div>
-        <div className="grid grid-cols-12 text-white gap-6 pb-10 border-b-[1px] border-[#ffffff1a]">
+        <div className="grid grid-cols-12 text-white gap-0 md:gap-6 pb-10 border-b-[1px] border-[#ffffff1a]">
           <div className="col-span-12 md:col-span-6 lg:col-span-3 md:place-items-start">
             <h2 className="text-[20px] mt-14 mb-3 font-semibold">WHO WE ARE</h2>
             <Divider />
