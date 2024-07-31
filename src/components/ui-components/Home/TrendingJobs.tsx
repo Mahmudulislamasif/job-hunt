@@ -9,8 +9,8 @@ const TrendingJobs = () => {
   return (
     <div>
     <div className="container mx-auto my-9">
-      <div className="flex">
-        <div className="w-[15%] bg-secondary text-white font-bold text-[16px] text-center py-5 flex flex-col items-center justify-center">
+      <div className="md:flex block px-4 md:px-0">
+        <div className="w-[100%] md:w-[15%] bg-secondary text-white font-bold text-[16px] text-center py-5 flex flex-col items-center justify-center">
           <h3>TRANDING</h3>
           <h4>JOBS</h4>
         </div>

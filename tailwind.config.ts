@@ -11,6 +11,7 @@ const config: Config = {
       colors:{
         primary: "#343a4a",
         secondary:"#23c0e9",
+        deepsecondary:"#22b5db",
         red:"#f36969",
         green:"#37d09c"  
       },
@@ -21,6 +22,8 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-clip-path'),
+  ],
 };
 export default config;
