@@ -70,7 +70,7 @@ const FeatureJobs = () => {
             <Swiper
                slidesPerView={4}
                breakpoints={{
-                 368:{
+                 280:{
                   slidesPerView: 1,
                  },
                  640: {
