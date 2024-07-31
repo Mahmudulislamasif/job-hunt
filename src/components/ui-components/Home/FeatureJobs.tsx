@@ -68,7 +68,21 @@ const FeatureJobs = () => {
               </div>
             </div>
             <Swiper
-              slidesPerView={4}
+               slidesPerView={4}
+               breakpoints={{
+                 368:{
+                  slidesPerView: 1,
+                 },
+                 640: {
+                   slidesPerView: 2,
+                 },
+                 768: {
+                   slidesPerView: 3,
+                 },
+                 1024: {
+                   slidesPerView: 4,
+                 },
+               }} 
               navigation={{
                 nextEl: ".button-next-slide",
                 prevEl: ".button-prev-slide",
@@ -142,7 +156,7 @@ const FeatureJobs = () => {
             <SwiperSlide>
               <div className="group mb-9">
                 <div className="grid grid-cols-12 bg-white border-[1px] group-hover:border-secondary border-[#e9e9e9] transition-all duration-500 ease-in-out">
-                  <div className="col-span-8 flex items-center gap-6 px-6 py-6">
+                  <div className="col-span-12 md:col-span-8 flex items-center gap-6 px-6 py-6">
                     <div>
                       <Image
                         src={job_post_img1}
@@ -160,10 +174,10 @@ const FeatureJobs = () => {
                           Webstrot Technology Pvt. Ltd.
                         </p>
                       </div>
-                      <ul className="flex gap-3">
+                      <ul className="flex gap-3 flex-wrap">
                         <li className="flex items-center">
                           <FaCcPaypal className="text-red items-center" />
-                          &nbsp;{" "}
+                          &nbsp;
                           <p className="text-[16px] font-bold">
                             $12K - 15k P.A.
                           </p>
@@ -178,9 +192,9 @@ const FeatureJobs = () => {
                       </ul>
                     </div>
                   </div>
-                  <div className="col-span-4 px-6 py-6">
+                  <div className="col-span-12  md:col-span-4 px-6 py-6">
                     <ul>
-                      <div className="flex gap-4 justify-end">
+                      <div className="flex gap-4 justify-start md:justify-end">
                         <li>
                           <FaRegHeart className=" border-[1px] p-1 border-[#e9e9e9] rounded-lg cursor-pointer hover:bg-red hover:text-white text-[30px] text-red" />
                         </li>
@@ -228,7 +242,7 @@ const FeatureJobs = () => {
               </div>
               <div className="group mb-9">
                 <div className="grid grid-cols-12 bg-white border-[1px] group-hover:border-secondary border-[#e9e9e9] transition-all duration-500 ease-in-out">
-                  <div className="col-span-8 flex items-center gap-6 px-6 py-6">
+                  <div className="col-span-12 md:col-span-8 flex items-center gap-6 px-6 py-6">
                     <div>
                       <Image
                         src={job_post_img2}
@@ -246,7 +260,7 @@ const FeatureJobs = () => {
                           Webstrot Technology Pvt. Ltd.
                         </p>
                       </div>
-                      <ul className="flex gap-3">
+                      <ul className="flex gap-3 flex-wrap">
                         <li className="flex items-center">
                           <FaCcPaypal className="text-red items-center" />
                           &nbsp;{" "}
@@ -264,9 +278,9 @@ const FeatureJobs = () => {
                       </ul>
                     </div>
                   </div>
-                  <div className="col-span-4 px-6 py-6">
+                  <div className="col-span-12 md:col-span-4 px-6 py-6">
                     <ul>
-                      <div className="flex gap-4 justify-end">
+                      <div className="flex gap-4 justify-start md:justify-end">
                         <li>
                           <FaRegHeart className=" border-[1px] p-1 border-[#e9e9e9] rounded-lg cursor-pointer hover:bg-red hover:text-white text-[30px] text-red" />
                         </li>
@@ -314,7 +328,7 @@ const FeatureJobs = () => {
               </div>
               <div className="group mb-9">
                 <div className="grid grid-cols-12 bg-white border-[1px] group-hover:border-secondary border-[#e9e9e9] transition-all duration-500 ease-in-out">
-                  <div className="col-span-8 flex items-center gap-6 px-6 py-6">
+                  <div className="col-span-12 md:col-span-8 flex items-center gap-6 px-6 py-6">
                     <div>
                       <Image
                         src={job_post_img3}
@@ -332,7 +346,7 @@ const FeatureJobs = () => {
                           Webstrot Technology Pvt. Ltd.
                         </p>
                       </div>
-                      <ul className="flex gap-3">
+                      <ul className="flex gap-3 flex-wrap">
                         <li className="flex items-center">
                           <FaCcPaypal className="text-red items-center" />
                           &nbsp;{" "}
@@ -352,7 +366,7 @@ const FeatureJobs = () => {
                   </div>
                   <div className="col-span-4 px-6 py-6">
                     <ul>
-                      <div className="flex gap-4 justify-end">
+                      <div className="flex gap-4 justify-start md:justify-end">
                         <li>
                           <FaRegHeart className=" border-[1px] p-1 border-[#e9e9e9] rounded-lg cursor-pointer hover:bg-red hover:text-white text-[30px] text-red" />
                         </li>
@@ -400,7 +414,7 @@ const FeatureJobs = () => {
               </div>
               <div className="group mb-9">
                 <div className="grid grid-cols-12 bg-white border-[1px] group-hover:border-secondary border-[#e9e9e9] transition-all duration-500 ease-in-out">
-                  <div className="col-span-8 flex items-center gap-6 px-6 py-6">
+                  <div className="col-span-12 md:col-span-8 flex items-center gap-6 px-6 py-6">
                     <div>
                       <Image
                         src={job_post_img4}
@@ -418,7 +432,7 @@ const FeatureJobs = () => {
                           Webstrot Technology Pvt. Ltd.
                         </p>
                       </div>
-                      <ul className="flex gap-3">
+                      <ul className="flex gap-3 flex-wrap">
                         <li className="flex items-center">
                           <FaCcPaypal className="text-red items-center" />
                           &nbsp;{" "}
@@ -436,9 +450,9 @@ const FeatureJobs = () => {
                       </ul>
                     </div>
                   </div>
-                  <div className="col-span-4 px-6 py-6">
+                  <div className="col-span-12 md:col-span-4 px-6 py-6">
                     <ul>
-                      <div className="flex gap-4 justify-end">
+                      <div className="flex gap-4 justify-start md:justify-end">
                         <li>
                           <FaRegHeart className=" border-[1px] p-1 border-[#e9e9e9] rounded-lg cursor-pointer hover:bg-red hover:text-white text-[30px] text-red" />
                         </li>
@@ -486,7 +500,7 @@ const FeatureJobs = () => {
               </div>
               <div className="group">
                 <div className="grid grid-cols-12 bg-white border-[1px] group-hover:border-secondary border-[#e9e9e9] transition-all duration-500 ease-in-out">
-                  <div className="col-span-8 flex items-center gap-6 px-6 py-6">
+                  <div className="col-span-12 md:col-span-8 flex items-center gap-6 px-6 py-6">
                     <div>
                       <Image
                         src={job_post_img5}
@@ -504,7 +518,7 @@ const FeatureJobs = () => {
                           Webstrot Technology Pvt. Ltd.
                         </p>
                       </div>
-                      <ul className="flex gap-3">
+                      <ul className="flex gap-3 flex-wrap">
                         <li className="flex items-center">
                           <FaCcPaypal className="text-red items-center" />
                           &nbsp;{" "}
@@ -522,9 +536,9 @@ const FeatureJobs = () => {
                       </ul>
                     </div>
                   </div>
-                  <div className="col-span-4 px-6 py-6">
+                  <div className="col-span-12  md:col-span-4 px-6 py-6">
                     <ul>
-                      <div className="flex gap-4 justify-end">
+                      <div className="flex gap-4 justify-start md:justify-end">
                         <li>
                           <FaRegHeart className=" border-[1px] p-1 border-[#e9e9e9] rounded-lg cursor-pointer hover:bg-red hover:text-white text-[30px] text-red" />
                         </li>
@@ -574,7 +588,7 @@ const FeatureJobs = () => {
             <SwiperSlide>
               <div className="group mb-9">
                 <div className="grid grid-cols-12 bg-white border-[1px] group-hover:border-secondary border-[#e9e9e9] transition-all duration-500 ease-in-out">
-                  <div className="col-span-8 flex items-center gap-6 px-6 py-6">
+                  <div className="col-span-12 md:col-span-8 flex items-center gap-6 px-6 py-6">
                     <div>
                       <Image
                         src={job_post_img1}
@@ -592,7 +606,7 @@ const FeatureJobs = () => {
                           Webstrot Technology Pvt. Ltd.
                         </p>
                       </div>
-                      <ul className="flex gap-3">
+                      <ul className="flex gap-3 flex-wrap">
                         <li className="flex items-center">
                           <FaCcPaypal className="text-red items-center" />
                           &nbsp;{" "}
@@ -610,9 +624,9 @@ const FeatureJobs = () => {
                       </ul>
                     </div>
                   </div>
-                  <div className="col-span-4 px-6 py-6">
+                  <div className="col-span-12 md:col-span-4 px-6 py-6">
                     <ul>
-                      <div className="flex gap-4 justify-end">
+                      <div className="flex gap-4 justify-start md:justify-end">
                         <li>
                           <FaRegHeart className=" border-[1px] p-1 border-[#e9e9e9] rounded-lg cursor-pointer hover:bg-red hover:text-white text-[30px] text-red" />
                         </li>
@@ -660,7 +674,7 @@ const FeatureJobs = () => {
               </div>
               <div className="group mb-9">
                 <div className="grid grid-cols-12 bg-white border-[1px] group-hover:border-secondary border-[#e9e9e9] transition-all duration-500 ease-in-out">
-                  <div className="col-span-8 flex items-center gap-6 px-6 py-6">
+                  <div className="col-span-12 md:col-span-8 flex items-center gap-6 px-6 py-6">
                     <div>
                       <Image
                         src={job_post_img2}
@@ -678,7 +692,7 @@ const FeatureJobs = () => {
                           Webstrot Technology Pvt. Ltd.
                         </p>
                       </div>
-                      <ul className="flex gap-3">
+                      <ul className="flex gap-3 flex-wrap">
                         <li className="flex items-center">
                           <FaCcPaypal className="text-red items-center" />
                           &nbsp;{" "}
@@ -696,9 +710,9 @@ const FeatureJobs = () => {
                       </ul>
                     </div>
                   </div>
-                  <div className="col-span-4 px-6 py-6">
+                  <div className="col-span-12 md:col-span-4 px-6 py-6">
                     <ul>
-                      <div className="flex gap-4 justify-end">
+                      <div className="flex gap-4 justify-start md:justify-end">
                         <li>
                           <FaRegHeart className=" border-[1px] p-1 border-[#e9e9e9] rounded-lg cursor-pointer hover:bg-red hover:text-white text-[30px] text-red" />
                         </li>
@@ -746,7 +760,7 @@ const FeatureJobs = () => {
               </div>
               <div className="group mb-9">
                 <div className="grid grid-cols-12 bg-white border-[1px] group-hover:border-secondary border-[#e9e9e9] transition-all duration-500 ease-in-out">
-                  <div className="col-span-8 flex items-center gap-6 px-6 py-6">
+                  <div className="col-span-12 md:col-span-8 flex items-center gap-6 px-6 py-6">
                     <div>
                       <Image
                         src={job_post_img3}
@@ -764,7 +778,7 @@ const FeatureJobs = () => {
                           Webstrot Technology Pvt. Ltd.
                         </p>
                       </div>
-                      <ul className="flex gap-3">
+                      <ul className="flex gap-3 flex-wrap">
                         <li className="flex items-center">
                           <FaCcPaypal className="text-red items-center" />
                           &nbsp;{" "}
@@ -782,9 +796,9 @@ const FeatureJobs = () => {
                       </ul>
                     </div>
                   </div>
-                  <div className="col-span-4 px-6 py-6">
+                  <div className="col-span-12 md:col-span-4 px-6 py-6">
                     <ul>
-                      <div className="flex gap-4 justify-end">
+                      <div className="flex gap-4 justify-start md:justify-end">
                         <li>
                           <FaRegHeart className=" border-[1px] p-1 border-[#e9e9e9] rounded-lg cursor-pointer hover:bg-red hover:text-white text-[30px] text-red" />
                         </li>
@@ -832,7 +846,7 @@ const FeatureJobs = () => {
               </div>
               <div className="group mb-9">
                 <div className="grid grid-cols-12 bg-white border-[1px] group-hover:border-secondary border-[#e9e9e9] transition-all duration-500 ease-in-out">
-                  <div className="col-span-8 flex items-center gap-6 px-6 py-6">
+                  <div className="col-span-12 md:col-span-8 flex items-center gap-6 px-6 py-6">
                     <div>
                       <Image
                         src={job_post_img4}
@@ -850,7 +864,7 @@ const FeatureJobs = () => {
                           Webstrot Technology Pvt. Ltd.
                         </p>
                       </div>
-                      <ul className="flex gap-3">
+                      <ul className="flex gap-3 flex-wrap">
                         <li className="flex items-center">
                           <FaCcPaypal className="text-red items-center" />
                           &nbsp;{" "}
@@ -868,9 +882,9 @@ const FeatureJobs = () => {
                       </ul>
                     </div>
                   </div>
-                  <div className="col-span-4 px-6 py-6">
+                  <div className="col-span-12 md:col-span-4 px-6 py-6">
                     <ul>
-                      <div className="flex gap-4 justify-end">
+                      <div className="flex gap-4 justify-start  md:justify-end">
                         <li>
                           <FaRegHeart className=" border-[1px] p-1 border-[#e9e9e9] rounded-lg cursor-pointer hover:bg-red hover:text-white text-[30px] text-red" />
                         </li>
@@ -918,7 +932,7 @@ const FeatureJobs = () => {
               </div>
               <div className="group">
                 <div className="grid grid-cols-12 bg-white border-[1px] group-hover:border-secondary border-[#e9e9e9] transition-all duration-500 ease-in-out">
-                  <div className="col-span-8 flex items-center gap-6 px-6 py-6">
+                  <div className="col-span-12 md:col-span-8 flex items-center gap-6 px-6 py-6">
                     <div>
                       <Image
                         src={job_post_img5}
@@ -936,7 +950,7 @@ const FeatureJobs = () => {
                           Webstrot Technology Pvt. Ltd.
                         </p>
                       </div>
-                      <ul className="flex gap-3">
+                      <ul className="flex gap-3 flex-wrap">
                         <li className="flex items-center">
                           <FaCcPaypal className="text-red items-center" />
                           &nbsp;{" "}
@@ -954,9 +968,9 @@ const FeatureJobs = () => {
                       </ul>
                     </div>
                   </div>
-                  <div className="col-span-4 px-6 py-6">
+                  <div className="col-span-12 md:col-span-4 px-6 py-6">
                     <ul>
-                      <div className="flex gap-4 justify-end">
+                      <div className="flex gap-4 justify-start md:justify-end">
                         <li>
                           <FaRegHeart className=" border-[1px] p-1 border-[#e9e9e9] rounded-lg cursor-pointer hover:bg-red hover:text-white text-[30px] text-red" />
                         </li>
@@ -1003,438 +1017,7 @@ const FeatureJobs = () => {
                 </div>
               </div>
             </SwiperSlide>
-            <SwiperSlide>
-              <div className="group mb-9">
-                <div className="grid grid-cols-12 bg-white border-[1px] group-hover:border-secondary border-[#e9e9e9] transition-all duration-500 ease-in-out">
-                  <div className="col-span-8 flex items-center gap-6 px-6 py-6">
-                    <div>
-                      <Image
-                        src={job_post_img1}
-                        width={100}
-                        height={95}
-                        alt=""
-                      />
-                    </div>
-                    <div className="flex-auto flex-col">
-                      <div className="mb-2">
-                        <h4 className="font-bold text-[16px]">
-                          HTML Developer (1-2 Yrs Exp.)
-                        </h4>
-                        <p className="text-[16px] text-secondary">
-                          Webstrot Technology Pvt. Ltd.
-                        </p>
-                      </div>
-                      <ul className="flex gap-3">
-                        <li className="flex items-center">
-                          <FaCcPaypal className="text-red items-center" />
-                          &nbsp;{" "}
-                          <p className="text-[16px] font-bold">
-                            $12K - 15k P.A.
-                          </p>
-                        </li>
-                        <li className="flex items-center">
-                          <CiLocationOn className="text-red" />
-                          &nbsp;{" "}
-                          <p className="text-[16px] text-[#797979]">
-                            Caliphonia, PO 455001
-                          </p>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div className="col-span-4 px-6 py-6">
-                    <ul>
-                      <div className="flex gap-4 justify-end">
-                        <li>
-                          <FaRegHeart className=" border-[1px] p-1 border-[#e9e9e9] rounded-lg cursor-pointer hover:bg-red hover:text-white text-[30px] text-red" />
-                        </li>
-                        <li className="text-white  flex flex-col gap-4">
-                          <button className="bg-green rounded-lg px-3 py-1">
-                            PART TIME
-                          </button>
-                          <button className="bg-red px-3 py-1 rounded-lg">
-                            APPLY
-                          </button>
-                        </li>
-                      </div>
-                      <li className="bg-red text-white"></li>
-                    </ul>
-                  </div>
-                  <div className="col-span-12 px-6 py-6 bg-[#e9e9e9] group-hover:bg-secondary group-hover:text-white transition-all duration-500 ease-in-out">
-                    <ul className="flex gap-3 flex-wrap">
-                      <li className="flex items-center gap-2">
-                        <BsTagsFill className="text-secondary" />{" "}
-                        <span className="font-semibold">
-                          Trending Keywords :
-                        </span>
-                      </li>
-                      <li>
-                        <a href="#">ui designer,</a>
-                      </li>
-                      <li>
-                        <a href="#">developer,</a>
-                      </li>
-                      <li>
-                        <a href="#">senior</a>
-                      </li>
-                      <li>
-                        <a href="#">it company,</a>
-                      </li>
-                      <li>
-                        <a href="#">design,</a>
-                      </li>
-                      <li>
-                        <a href="#">call center</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div className="group mb-9">
-                <div className="grid grid-cols-12 bg-white border-[1px] group-hover:border-secondary border-[#e9e9e9] transition-all duration-500 ease-in-out">
-                  <div className="col-span-8 flex items-center gap-6 px-6 py-6">
-                    <div>
-                      <Image
-                        src={job_post_img2}
-                        width={100}
-                        height={95}
-                        alt=""
-                      />
-                    </div>
-                    <div className="flex-auto flex-col">
-                      <div className="mb-2">
-                        <h4 className="font-bold text-[16px]">
-                          HTML Developer (1-2 Yrs Exp.)
-                        </h4>
-                        <p className="text-[16px] text-secondary">
-                          Webstrot Technology Pvt. Ltd.
-                        </p>
-                      </div>
-                      <ul className="flex gap-3">
-                        <li className="flex items-center">
-                          <FaCcPaypal className="text-red items-center" />
-                          &nbsp;{" "}
-                          <p className="text-[16px] font-bold">
-                            $12K - 15k P.A.
-                          </p>
-                        </li>
-                        <li className="flex items-center">
-                          <CiLocationOn className="text-red" />
-                          &nbsp;{" "}
-                          <p className="text-[16px] text-[#797979]">
-                            Caliphonia, PO 455001
-                          </p>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div className="col-span-4 px-6 py-6">
-                    <ul>
-                      <div className="flex gap-4 justify-end">
-                        <li>
-                          <FaRegHeart className=" border-[1px] p-1 border-[#e9e9e9] rounded-lg cursor-pointer hover:bg-red hover:text-white text-[30px] text-red" />
-                        </li>
-                        <li className="text-white  flex flex-col gap-4">
-                          <button className="bg-green rounded-lg px-3 py-1">
-                            PART TIME
-                          </button>
-                          <button className="bg-red px-3 py-1 rounded-lg">
-                            APPLY
-                          </button>
-                        </li>
-                      </div>
-                      <li className="bg-red text-white"></li>
-                    </ul>
-                  </div>
-                  <div className="col-span-12 px-6 py-6 bg-[#e9e9e9] group-hover:bg-secondary group-hover:text-white transition-all duration-500 ease-in-out">
-                    <ul className="flex gap-3 flex-wrap">
-                      <li className="flex items-center gap-2">
-                        <BsTagsFill className="text-secondary" />{" "}
-                        <span className="font-semibold">
-                          Trending Keywords :
-                        </span>
-                      </li>
-                      <li>
-                        <a href="#">ui designer,</a>
-                      </li>
-                      <li>
-                        <a href="#">developer,</a>
-                      </li>
-                      <li>
-                        <a href="#">senior</a>
-                      </li>
-                      <li>
-                        <a href="#">it company,</a>
-                      </li>
-                      <li>
-                        <a href="#">design,</a>
-                      </li>
-                      <li>
-                        <a href="#">call center</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div className="group mb-9">
-                <div className="grid grid-cols-12 bg-white border-[1px] group-hover:border-secondary border-[#e9e9e9] transition-all duration-500 ease-in-out">
-                  <div className="col-span-8 flex items-center gap-6 px-6 py-6">
-                    <div>
-                      <Image
-                        src={job_post_img3}
-                        width={100}
-                        height={95}
-                        alt=""
-                      />
-                    </div>
-                    <div className="flex-auto flex-col">
-                      <div className="mb-2">
-                        <h4 className="font-bold text-[16px]">
-                          HTML Developer (1-2 Yrs Exp.)
-                        </h4>
-                        <p className="text-[16px] text-secondary">
-                          Webstrot Technology Pvt. Ltd.
-                        </p>
-                      </div>
-                      <ul className="flex gap-3">
-                        <li className="flex items-center">
-                          <FaCcPaypal className="text-red items-center" />
-                          &nbsp;{" "}
-                          <p className="text-[16px] font-bold">
-                            $12K - 15k P.A.
-                          </p>
-                        </li>
-                        <li className="flex items-center">
-                          <CiLocationOn className="text-red" />
-                          &nbsp;{" "}
-                          <p className="text-[16px] text-[#797979]">
-                            Caliphonia, PO 455001
-                          </p>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div className="col-span-4 px-6 py-6">
-                    <ul>
-                      <div className="flex gap-4 justify-end">
-                        <li>
-                          <FaRegHeart className=" border-[1px] p-1 border-[#e9e9e9] rounded-lg cursor-pointer hover:bg-red hover:text-white text-[30px] text-red" />
-                        </li>
-                        <li className="text-white  flex flex-col gap-4">
-                          <button className="bg-green rounded-lg px-3 py-1">
-                            PART TIME
-                          </button>
-                          <button className="bg-red px-3 py-1 rounded-lg">
-                            APPLY
-                          </button>
-                        </li>
-                      </div>
-                      <li className="bg-red text-white"></li>
-                    </ul>
-                  </div>
-                  <div className="col-span-12 px-6 py-6 bg-[#e9e9e9] group-hover:bg-secondary group-hover:text-white transition-all duration-500 ease-in-out">
-                    <ul className="flex gap-3 flex-wrap">
-                      <li className="flex items-center gap-2">
-                        <BsTagsFill className="text-secondary" />{" "}
-                        <span className="font-semibold">
-                          Trending Keywords :
-                        </span>
-                      </li>
-                      <li>
-                        <a href="#">ui designer,</a>
-                      </li>
-                      <li>
-                        <a href="#">developer,</a>
-                      </li>
-                      <li>
-                        <a href="#">senior</a>
-                      </li>
-                      <li>
-                        <a href="#">it company,</a>
-                      </li>
-                      <li>
-                        <a href="#">design,</a>
-                      </li>
-                      <li>
-                        <a href="#">call center</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div className="group mb-9">
-                <div className="grid grid-cols-12 bg-white border-[1px] group-hover:border-secondary border-[#e9e9e9] transition-all duration-500 ease-in-out">
-                  <div className="col-span-8 flex items-center gap-6 px-6 py-6">
-                    <div>
-                      <Image
-                        src={job_post_img4}
-                        width={100}
-                        height={95}
-                        alt=""
-                      />
-                    </div>
-                    <div className="flex-auto flex-col">
-                      <div className="mb-2">
-                        <h4 className="font-bold text-[16px]">
-                          HTML Developer (1-2 Yrs Exp.)
-                        </h4>
-                        <p className="text-[16px] text-secondary">
-                          Webstrot Technology Pvt. Ltd.
-                        </p>
-                      </div>
-                      <ul className="flex gap-3">
-                        <li className="flex items-center">
-                          <FaCcPaypal className="text-red items-center" />
-                          &nbsp;{" "}
-                          <p className="text-[16px] font-bold">
-                            $12K - 15k P.A.
-                          </p>
-                        </li>
-                        <li className="flex items-center">
-                          <CiLocationOn className="text-red" />
-                          &nbsp;{" "}
-                          <p className="text-[16px] text-[#797979]">
-                            Caliphonia, PO 455001
-                          </p>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div className="col-span-4 px-6 py-6">
-                    <ul>
-                      <div className="flex gap-4 justify-end">
-                        <li>
-                          <FaRegHeart className=" border-[1px] p-1 border-[#e9e9e9] rounded-lg cursor-pointer hover:bg-red hover:text-white text-[30px] text-red" />
-                        </li>
-                        <li className="text-white  flex flex-col gap-4">
-                          <button className="bg-green rounded-lg px-3 py-1">
-                            PART TIME
-                          </button>
-                          <button className="bg-red px-3 py-1 rounded-lg">
-                            APPLY
-                          </button>
-                        </li>
-                      </div>
-                      <li className="bg-red text-white"></li>
-                    </ul>
-                  </div>
-                  <div className="col-span-12 px-6 py-6 bg-[#e9e9e9] group-hover:bg-secondary group-hover:text-white transition-all duration-500 ease-in-out">
-                    <ul className="flex gap-3 flex-wrap">
-                      <li className="flex items-center gap-2">
-                        <BsTagsFill className="text-secondary" />{" "}
-                        <span className="font-semibold">
-                          Trending Keywords :
-                        </span>
-                      </li>
-                      <li>
-                        <a href="#">ui designer,</a>
-                      </li>
-                      <li>
-                        <a href="#">developer,</a>
-                      </li>
-                      <li>
-                        <a href="#">senior</a>
-                      </li>
-                      <li>
-                        <a href="#">it company,</a>
-                      </li>
-                      <li>
-                        <a href="#">design,</a>
-                      </li>
-                      <li>
-                        <a href="#">call center</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div className="group">
-                <div className="grid grid-cols-12 bg-white border-[1px] group-hover:border-secondary border-[#e9e9e9] transition-all duration-500 ease-in-out">
-                  <div className="col-span-8 flex items-center gap-6 px-6 py-6">
-                    <div>
-                      <Image
-                        src={job_post_img5}
-                        width={100}
-                        height={95}
-                        alt=""
-                      />
-                    </div>
-                    <div className="flex-auto flex-col">
-                      <div className="mb-2">
-                        <h4 className="font-bold text-[16px]">
-                          HTML Developer (1-2 Yrs Exp.)
-                        </h4>
-                        <p className="text-[16px] text-secondary">
-                          Webstrot Technology Pvt. Ltd.
-                        </p>
-                      </div>
-                      <ul className="flex gap-3">
-                        <li className="flex items-center">
-                          <FaCcPaypal className="text-red items-center" />
-                          &nbsp;{" "}
-                          <p className="text-[16px] font-bold">
-                            $12K - 15k P.A.
-                          </p>
-                        </li>
-                        <li className="flex items-center">
-                          <CiLocationOn className="text-red" />
-                          &nbsp;{" "}
-                          <p className="text-[16px] text-[#797979]">
-                            Caliphonia, PO 455001
-                          </p>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div className="col-span-4 px-6 py-6">
-                    <ul>
-                      <div className="flex gap-4 justify-end">
-                        <li>
-                          <FaRegHeart className=" border-[1px] p-1 border-[#e9e9e9] rounded-lg cursor-pointer hover:bg-red hover:text-white text-[30px] text-red" />
-                        </li>
-                        <li className="text-white  flex flex-col gap-4">
-                          <button className="bg-green rounded-lg px-3 py-1">
-                            PART TIME
-                          </button>
-                          <button className="bg-red px-3 py-1 rounded-lg">
-                            APPLY
-                          </button>
-                        </li>
-                      </div>
-                      <li className="bg-red text-white"></li>
-                    </ul>
-                  </div>
-                  <div className="col-span-12 px-6 py-6 bg-[#e9e9e9] group-hover:bg-secondary group-hover:text-white transition-all duration-500 ease-in-out">
-                    <ul className="flex gap-3 flex-wrap">
-                      <li className="flex items-center gap-2">
-                        <BsTagsFill className="text-secondary" />{" "}
-                        <span className="font-semibold">
-                          Trending Keywords :
-                        </span>
-                      </li>
-                      <li>
-                        <a href="#">ui designer,</a>
-                      </li>
-                      <li>
-                        <a href="#">developer,</a>
-                      </li>
-                      <li>
-                        <a href="#">senior</a>
-                      </li>
-                      <li>
-                        <a href="#">it company,</a>
-                      </li>
-                      <li>
-                        <a href="#">design,</a>
-                      </li>
-                      <li>
-                        <a href="#">call center</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </SwiperSlide>
+           
           </Swiper>
           {/* Pagination */}
           <div className="flex items-center gap-2 justify-between my-8">
@@ -1451,8 +1034,8 @@ const FeatureJobs = () => {
             </div>
           </div>
           {/* Role */}
-          <div className="border-[1px] border-[#e9e9e9] w-full flex rounded-lg overflow-hidden">
-            <div className="w-1/2 py-14 px-10 text-center bg-white border-r-[1px] border-[#e9e9e9] ">
+          <div className="border-[1px] grid grid-cols-12   md:gap-0 gap-4 border-[#e9e9e9] w-full rounded-lg overflow-hidden">
+            <div className="col-span-12 md:col-span-6 py-14 px-10 text-center bg-white border-r-[1px] border-[#e9e9e9] ">
               <RiComputerLine   className="mx-auto text-6xl text-secondary mb-4"/>
               <h4 className="font-bold text-[20px]">I’M AN EMPLOYER</h4>
               <div className="flex gap-1 my-4 items-center justify-center">
@@ -1464,7 +1047,7 @@ const FeatureJobs = () => {
                 Signed in companies are able to post new job offers, searching
                 for candidate...
               </p>
-              <div className="-mt-[45px] -mr-[72px]">
+              <div className="-mt-[45px] -mr-[72px] md:block hidden">
                 <div className="bg-secondary rounded-2xl text-white p-5 rotate-45  ">
                    <div className="-rotate-45">
                    OR
@@ -1481,7 +1064,7 @@ const FeatureJobs = () => {
               </div>
             </button>
             </div>
-            <div className="w-1/2 py-14 px-10 text-center bg-black">
+            <div className="col-span-12 md:col-span-6 py-14 px-10 text-center bg-black">
               <CiUser   className="mx-auto text-6xl text-secondary mb-4"/>
               <h4 className="font-bold text-[20px] text-white">I’M AN CANDIDATE</h4>
               <div className="flex gap-1 my-4 items-center justify-center">
