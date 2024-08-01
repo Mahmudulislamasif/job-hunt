@@ -10,7 +10,7 @@ import { FaXTwitter } from "react-icons/fa6";
 import { FaPinterestP, FaLinkedinIn, FaGooglePlusG } from "react-icons/fa";
 const Footer = () => {
   return (
-  <div className="bg-[#0e1427eb]">
+  <div className="w-full flex justify-center items-center bg-cover bg-no-repeat relative footer-bg">
       <div >
       <div className="container mx-auto px-4">
         <div className="border-b-[1px] border-[#ffffff1a] py-10">
