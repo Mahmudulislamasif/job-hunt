@@ -11,7 +11,7 @@ import { Autoplay, Pagination, Navigation } from "swiper/modules";
 const TestimonialTwo = () => {
   return (
     <div className="bg-[#8dc539]">
-      <div className="container mx-auto py-20">
+      <div className="container mx-auto py-20 px-4 md:px-0">
         <div className="text-center">
           <h3 className="text-[20px] text-white font-semibold">TESTIMONIAL</h3>
           <div className="flex gap-1 my-3 justify-center">
