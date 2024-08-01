@@ -66,6 +66,21 @@ html, body {
   .swiper-pagination-two .swiper-pagination-bullet-active {
     color: red;
   }
+  /* Custom styles for Swiper pagination bullets */
+.swiper-pagination-three .swiper-pagination-bullet {
+  width: 25px;
+  height: 5px;
+  background-color: white;
+  display: inline-block;
+  border-radius: 0; /* This makes it square */
+  border-radius: 3px;
+
+
+}
+
+.swiper-pagination-three .swiper-pagination-bullet-active {
+  background: white;
+}
   @keyframes para {
     100% {
       background-position: 

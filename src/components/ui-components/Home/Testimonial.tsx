@@ -28,7 +28,7 @@ const Testimonial = () => {
                 </h3>
                 <Divider />
               </div>
-              <div className=" hidden md:flex -mt-2 gap-2">
+              <div className=" hidden md:flex  gap-2">
                 <div className="button-prev-slide-five right-0   grid place-items-center text-white rounded-full">
                   <FaRegArrowAltCircleLeft className="text-gray-500 text-xl" />
                 </div>
@@ -45,7 +45,7 @@ const Testimonial = () => {
               }}
               autoplay={{
                 delay: 2500,
-                disableOnInteraction: false,
+                disableOnInteraction: false, 
               }}
               modules={[Pagination, Autoplay, Navigation]}
               className="relative"

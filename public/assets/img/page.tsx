@@ -8,6 +8,8 @@ import client_img2 from "./client_img2.webp";
 import client_img3 from "./client_img3.webp";
 import client_slider_img from "./client_slider_img.webp";
 import mobile from "./mobile.webp";
+import testi_client_img1 from "./testi_client_img1.webp";
+import testi_client_img2 from "./testi_client_img2.webp";
 export{
  headerImg,
  spotlight_img,
@@ -18,5 +20,8 @@ export{
  client_img2,
  client_img3,
  client_slider_img,
- mobile
+ mobile,
+ testi_client_img1,
+ testi_client_img2,
+
 }

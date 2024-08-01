@@ -9,6 +9,7 @@ import {Hero,FeatureJobs, Navbar} from "@/components/ui-components/Home/page";
 import Pricing from "@/components/ui-components/Home/Pricing";
 import SocialApps from "@/components/ui-components/Home/SocialApps";
 import Testimonial from "@/components/ui-components/Home/Testimonial";
+import TestimonialTwo from "@/components/ui-components/Home/TestimonialTwo";
 import TrendingJobs from "@/components/ui-components/Home/TrendingJobs";
 
 export default function Home() {
@@ -21,6 +22,7 @@ export default function Home() {
       <Counter/>
       <Deals/>
       <Testimonial/>
+      <TestimonialTwo/>
       <Pricing/>
       <SocialApps/>
       <Newsletter/>
