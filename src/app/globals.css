@@ -16,8 +16,9 @@
   }
 }
 
-body {
+html, body {
   background: #f9f9f9;
+  font-family: var(--font-montserrat);
 }
 
 @layer utilities {
@@ -27,14 +28,14 @@ body {
   .hero-bg
   {
  /* Using RGBA for transparency */
-  background:  url(../../public/assets/img/header_img.jpg);
+  background:  linear-gradient(0deg, rgba(52, 58, 74, 0.875), #343a4a), url(../../public/assets/img/header_img.jpg);
   background-repeat: repeat-x;
-  background-position: 0 20%, 0 95%, 0 0, 0 100%, 0 0;
+  background-position: 0 20%, 0 50%, 0 0, 0 100%, 0 0;
   animation: 90s para infinite linear;
   } 
   .social-bg
   {
-    background-image: linear-gradient(0deg, rgba(35, 192, 233, 0.878), #23c0e9e0), url('/assets/img/down_bg.webp');
+    background-image: linear-gradient(0deg, rgba(35, 192, 233, 0.7), #23c0e9e0), url('/assets/img/down_bg.webp');
   background-repeat: no-repeat;
   background-position: 0 20%, 0 95%, 0 0, 0 100%, 0 0;
   background-size: cover;

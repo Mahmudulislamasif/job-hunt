@@ -9,7 +9,7 @@ const SocialApps = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 items-center justify-center gap-4">
           <div className="flex justify-center">
-            <div className="relative w-full h-[286] md:h-[506px] max-w-[400px]">
+            <div className="relative w-full h-[286] md:h-[507px] max-w-[400px]">
               <Image
                 src={mobile}
                 width={400}

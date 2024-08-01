@@ -5,9 +5,9 @@ import { BsTagsFill } from "react-icons/bs";
 import { featureJobs } from "@/components/constant";
 const Hero = () => {
   return (
-    <div className="hero-bg ">
+    <div className="w-full flex justify-center items-center bg-cover bg-no-repeat relative hero-bg ">
       <div
-      className=" bg-primary text-white 
+      className="w-full text-white 
         "
     >
       <div className="container mx-auto">
