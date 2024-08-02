@@ -1,15 +1,14 @@
-//Button.tsx
-
 import { cva, VariantProps } from "class-variance-authority";
 import { ComponentProps } from "react";
 import { twMerge } from "tailwind-merge";
 
 const buttonStyles = cva(
-  ["flex", "gap-3"],
+  ["border-[2px]","border-[#ffffff40]","rounded-lg","px-3","py-2","gap-2","transition-all","duration-500"],
   {
     variants: {
-      variant: {
-        default: ["bg-transparent", "hover:bg-red"],
+      variant: { 
+        default: ["bg-transparent", "hover:bg-red","flex","items-center","justify-center"],
+        primary:["bg-secondary","hover:bg-white","flex","items-center","justify-center","w-full","border-0","hover:text-black"],
         hover: ["hover:bg-green-200"],
         dark: ["bg-green-900", "hover:bg-slate-800", "text-white"],
         gradient: [
@@ -28,7 +27,7 @@ const buttonStyles = cva(
         ],
       },
       size: {
-        default: ["rounded", "w-20", "h-20", "p-2"],
+        default: [""],
         button: ["rounded", "h-10", "w-32"],
         icon: ["rounded-full", "w-20", "h-20", "p-2.5"],
       },
@@ -40,9 +39,9 @@ const buttonStyles = cva(
   }
 );
 
-type buttonType = VariantProps<typeof buttonStyles> & ComponentProps<"button">;
+type ButtonType = VariantProps<typeof buttonStyles> & ComponentProps<"button">;
 
-const Button = ({ variant, size, className, ...props }: buttonType) => {
+const Button = ({ variant, size, className, ...props }: ButtonType) => {
   return (
     <button
       {...props}

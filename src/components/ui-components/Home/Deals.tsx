@@ -23,7 +23,7 @@ const Deals = () => {
     <div className="container mx-auto px-4">
       <div className="grid grid-cols-12 gap-4">
         <div className="col-span-12 lg:col-span-9 mt-6">
-          <div className=" p-5 ">
+          <div className="py-5">
             <div className="flex justify-between">
               <div>
                 <h3 className="text-[20px] font-semibold">

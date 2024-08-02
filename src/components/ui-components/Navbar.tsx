@@ -5,13 +5,12 @@ import { IoMdMenu } from "react-icons/io";
 import { FaUser } from "react-icons/fa";
 import { RxCross1 } from "react-icons/rx";
 import { FiLogIn } from "react-icons/fi";
-import { navLinks} from "@/components/constant"
+import { navLinks } from "@/components/constant";
 
 import Image from "next/image";
-import {logo} from "../../../public/assets/logo/page";
+import { logo } from "../../../public/assets/logo/page";
+import Button from "../units/Button";
 const Navbar = () => {
-  
-
   const [open, setOpen] = useState(false);
 
   return (
@@ -20,12 +19,7 @@ const Navbar = () => {
         {/* Logo Section */}
         <div className="font-bold text-2xl cursor-pointer flex items-center gap-1">
           <div className="flex">
-            <Image
-            width={160}
-            height={49}
-            src={logo}
-            alt="Logo"
-            />
+            <Image width={160} height={49} src={logo} alt="Logo" />
           </div>
         </div>
         {/* Menu Icon */}
@@ -33,7 +27,11 @@ const Navbar = () => {
           onClick={() => setOpen(!open)}
           className="absolute right-8 top-6 cursor-pointer md:hidden w-7 h-7"
         >
-          {open ? <RxCross1 className="text-white"/> : <IoMdMenu className="text-white" />}
+          {open ? (
+            <RxCross1 className="text-white" />
+          ) : (
+            <IoMdMenu className="text-white" />
+          )}
         </div>
         {/* Links */}
         <ul
@@ -56,15 +54,20 @@ const Navbar = () => {
               </Link>
             </li>
           ))}
-          <div className="flex gap-3">
-          <button className="border-[2px] border-[#ffffff40] rounded-lg px-3 py-2 flex items-center gap-2" >
-          <FaUser />
-            Sign Up
-          </button>
-          <button className="border-[2px] border-[#ffffff40] rounded-lg px-3 py-2 flex items-center gap-2">
-            <FiLogIn/>
-            Login</button>
-            </div>
+          <div className="flex gap-3 text-[16px]">
+            <Link href={`#`}>
+             <Button variant={`default`}>
+             <FaUser />
+             SIGN UP
+           </Button>
+            </Link>
+            <Link href={`login`}>
+            <Button variant={`default`}>
+              <FiLogIn />
+              LOGIN
+            </Button> 
+            </Link>
+          </div>
         </ul>
       </div>
     </div>

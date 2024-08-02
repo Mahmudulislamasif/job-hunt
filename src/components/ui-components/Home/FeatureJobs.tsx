@@ -108,9 +108,11 @@ const FeatureJobs = () => {
                       {com.companyname}
                     </h3>
                     <p className="text-[14px] my-2">({com.address})</p>
+                    <Link href={`#`}>
                     <button className="bg-black rounded-lg px-4 py-2 text-[12px] text-white group-hover:bg-red transition-all duration-500 ease-in-out">
                       {com.count} Opening
                     </button>
+                    </Link>
                   </div>
                 </SwiperSlide>
               ))}

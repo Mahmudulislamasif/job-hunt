@@ -3,6 +3,7 @@ import React from "react";
 const Counter = () => {
   return (
     <div className="container mx-auto">
+      <div className="mx-4">
       <div className="grid grid-cols-12">
         <div className="col-span-12 md:col-span-6 lg:col-span-3 p-10 bg-secondary">
           <div className="flex items-center justify-center flex-col gap-4">
@@ -44,6 +45,7 @@ const Counter = () => {
             <p className="text-white">Company</p>
           </div>
         </div>
+      </div>
       </div>
     </div>
   );
