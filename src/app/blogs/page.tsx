@@ -367,6 +367,7 @@ const page = () => {
               </div>
             </div>
           </div>
+          
           <div className="bg-white">
             <div className="p-4">
               <div className="relative w-full h-auto group overflow-hidden rounded-xl">
