@@ -14,7 +14,7 @@ const TestimonialTwo = () => {
       <div className="container mx-auto py-20 px-4 md:px-0">
         <div className="text-center">
           <h3 className="text-[20px] text-white font-semibold">TESTIMONIAL</h3>
-          <div className="flex gap-1 my-3 justify-center">
+          <div className="flex gap-1 my-10 justify-center">
             <div className="w-[10px] h-[2px] bg-white"></div>
             <div className="w-[30px] h-[2px] bg-white"></div>
           </div>
