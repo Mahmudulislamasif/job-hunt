@@ -178,7 +178,7 @@ const Testimonial = () => {
                           sed odo nibh vulputate Proin gravida nibh vel velit
                           auctor aliquet. Aenean sollicitudin”
                         </p>
-                        <div className="flex gap-2 flex-wrap">
+                        <div className="flex gap-2 flex-col justify-center items-center flex-wrap">
                           <div className="flex text-[#f1a835] items-center">
                             <FaStar />
                             <FaStar />
@@ -215,7 +215,7 @@ const Testimonial = () => {
                           sed odo nibh vulputate Proin gravida nibh vel velit
                           auctor aliquet. Aenean sollicitudin”
                         </p>
-                        <div className="flex gap-2 flex-wrap">
+                        <div className="flex gap-2 flex-col justify-center items-center flex-wrap">
                           <div className="flex text-[#f1a835] items-center">
                             <FaStar />
                             <FaStar />
@@ -280,7 +280,7 @@ const Testimonial = () => {
                   modules={[Pagination, Autoplay, Navigation]}
                   className="relative"
                 >
-                  <SwiperSlide>
+                 <SwiperSlide>
                     <div className="flex items-center flex-col justify-center gap-4 py-20 mt-5 md:flex-nowrap flex-wrap relative ">
                     <Image
                         src={client_slider_img}
@@ -289,14 +289,14 @@ const Testimonial = () => {
                         alt=""
                         className="rounded-full absolute top-0 mt-4  bg-white p-2"
                       />
-                      <div className="flex flex-col gap-2 items-center justify-center">
-                        <p className="px-5 py-20 text-center bg-white">
+                      <div className="flex flex-col gap-2 items-center justify-center bg-white px-5 py-20 ">
+                        <p className="text-center ">
                           “Sollicitudin, lorem quis bibendum en auctor, aks
                           consequat ipsum, nec a sagittis sem nibh id elit. Duis
                           sed odo nibh vulputate Proin gravida nibh vel velit
                           auctor aliquet. Aenean sollicitudin”
                         </p>
-                        <div className="flex gap-2 flex-wrap">
+                        <div className="flex gap-2 flex-wrap items-center flex-col">
                           <div className="flex text-[#f1a835] items-center">
                             <FaStar />
                             <FaStar />
@@ -305,8 +305,8 @@ const Testimonial = () => {
                             <CiStar />
                           </div>
                           <div className="flex items-center">
-                            <span className="text-white">~ </span>
-                            <p className="text-white">
+                            <span>~ </span>
+                            <p >
                               Jenniffer Doe{" "}
                               <span className="text-secondary">
                                 (Ui Designer)
@@ -326,14 +326,14 @@ const Testimonial = () => {
                         alt=""
                         className="rounded-full absolute top-0 mt-4  bg-white p-2"
                       />
-                      <div className="flex flex-col gap-2 items-center justify-center">
-                        <p className="px-5 py-20 text-center bg-white">
+                      <div className="flex flex-col gap-2 items-center justify-center bg-white px-5 py-20 ">
+                        <p className="text-center ">
                           “Sollicitudin, lorem quis bibendum en auctor, aks
                           consequat ipsum, nec a sagittis sem nibh id elit. Duis
                           sed odo nibh vulputate Proin gravida nibh vel velit
                           auctor aliquet. Aenean sollicitudin”
                         </p>
-                        <div className="flex gap-2 flex-wrap">
+                        <div className="flex gap-2 flex-wrap items-center flex-col">
                           <div className="flex text-[#f1a835] items-center">
                             <FaStar />
                             <FaStar />
@@ -342,8 +342,8 @@ const Testimonial = () => {
                             <CiStar />
                           </div>
                           <div className="flex items-center">
-                            <span className="text-white">~ </span>
-                            <p className="text-white">
+                            <span>~ </span>
+                            <p >
                               Jenniffer Doe{" "}
                               <span className="text-secondary">
                                 (Ui Designer)
