@@ -10,6 +10,11 @@ import client_slider_img from "./client_slider_img.webp";
 import mobile from "./mobile.webp";
 import testi_client_img1 from "./testi_client_img1.webp";
 import testi_client_img2 from "./testi_client_img2.webp";
+import blog_img1 from "./blog_img1.webp";
+import blog_small_img from "./blog_small_img.webp";
+import blog_img4 from "./blog_img4.webp";
+import blog_img5 from "./blog_img5.webp";
+import blog_img6 from "./blog_img6.webp";
 export{
  headerImg,
  spotlight_img,
@@ -23,5 +28,9 @@ export{
  mobile,
  testi_client_img1,
  testi_client_img2,
-
+ blog_img1,
+ blog_small_img,
+ blog_img4,
+ blog_img5,
+ blog_img6
 }

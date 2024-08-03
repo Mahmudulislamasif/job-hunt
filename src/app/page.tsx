@@ -2,6 +2,7 @@
 
 import Layout from "@/components/layouts/Layout";
 import Footer from "@/components/ui-components/Footer";
+import Card from "@/components/ui-components/Home/card";
 import Counter from "@/components/ui-components/Home/Counter";
 import Deals from "@/components/ui-components/Home/Deals";
 import Newsletter from "@/components/ui-components/Home/Newsletter";
@@ -23,7 +24,9 @@ export default function Home() {
       <Deals/>
       <Testimonial/>
       <TestimonialTwo/>
+      <Card/>
       <Pricing/>
+
       <SocialApps/>
       <Newsletter/>
       </Layout>
